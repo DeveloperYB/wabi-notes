@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Query } from 'react-apollo';
+// import { Query } from 'react-apollo';
 // import { GET_NOTES } from './queries';
 class App extends Component {
     render() {
