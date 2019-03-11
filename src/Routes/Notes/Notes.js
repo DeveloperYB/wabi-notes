@@ -34,11 +34,11 @@ const Subtitle = styled.h2`
     font-weight: 400;
 `;
 
-const Notes = styled.div`
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-`;
+// const Notes = styled.div`
+//     display: flex;
+//     flex-direction: column;
+//     align-items: flex-start;
+// `;
 
 const Note = styled.div`
     padding: 10px;
@@ -52,11 +52,11 @@ const Note = styled.div`
     }
 `;
 
-const NoteTitle = styled.span`
-    padding-bottom: 5px;
-    font-weight: 600;
-    font-size: 20px;
-`;
+// const NoteTitle = styled.span`
+//     padding-bottom: 5px;
+//     font-weight: 600;
+//     font-size: 20px;
+// `;
 
 export default class NotesContainer extends React.Component {
     render() {
