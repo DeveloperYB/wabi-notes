@@ -11,7 +11,7 @@ class App extends Component {
         return (
             <BrowserRouter>
                 <Switch>
-                    <Route exaxt={true} path={'/'} component={Notes} />
+                    <Route exact={true} path={'/'} component={Notes} />
                     <Route path={'/add'} component={Add} />
                     <Route path={'/note/:id'} component={Note} />
                     <Route path={'/edit/:id'} component={Edit} />
